@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://yourwebsite.com/sitemap.xml
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /private/
+
+# Allow all important pages
+Allow: /index.html
+Allow: /services.html
+Allow: /portfolio.html
+Allow: /about.html
+Allow: /contact.html
+Allow: /service-areas.html
+Allow: /testimonials.html
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
